@@ -8,15 +8,33 @@
 </head>
 
 <body>
-<h2>Login</h2>
-    <form action="login.php" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-        <br>
-        <input type="submit" value="Login">
-    </form>
+    <div class="row justify-content-center my-5">
+        <div class="col-lg-4 col-md-6 col-sm-10 col-xs-12">
+            <div class="card rounded-0 shadow">
+                <div class="card-header">
+                    <div class="card-title text-center h4 fw-bolder">Login</div>
+                </div>
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <form method="post" action="login.php">
+                            <div class="mb-3">
+                                <label for="name" class="control-label ">Username</label>
+                                <input type="text" name="name" class="form-control rounded-0">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pass" class="control-label ">Password</label>
+                                <input type="password" name="pass" class="form-control rounded-0">
+                            </div>
+                            <div class="mb-3 d-grid">
+                                <input type="submit" name="submit" value="Login" class="btn btn-success rounded-0">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
