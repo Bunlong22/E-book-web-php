@@ -22,7 +22,7 @@ require "./template/header.php";
 ?>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="books.php" class="text-decoration-none text-muted fw-light">Books</a>
+    <li class="breadcrumb-item"><a href="allbooks.php" class="text-decoration-none text-muted fw-light">Books</a>
     </li>
     <li class="breadcrumb-item active" aria-current="page">
       <?php echo $row['book_title']; ?>
