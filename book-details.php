@@ -93,7 +93,7 @@ require "./template/header.php";
             <form method="post" action="cart.php">
               <input type="hidden" name="bookisbn" value="<?php echo $book_isbn; ?>">
               <div class="text-center">
-                <input type="submit" value="Purchase / Add to cart" name="cart" class="btn btn-primary rounded-0">
+                <input type="submit" value="Add to cart" name="cart" class="btn btn-primary rounded-0">
               </div>
             </form>
           <?php endif; ?>
