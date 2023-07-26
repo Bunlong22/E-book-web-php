@@ -65,7 +65,7 @@ endif;
 							</td>
 							<td class="px-2 py-1 align-middle text-center">
 								<div class="btn-group btn-group-sm">
-									<a href="book.php?bookisbn=<?php echo $row['book_isbn']; ?>"
+									<a href="book-details.php?bookisbn=<?php echo $row['book_isbn']; ?>"
 										class="btn btn-sm rounded-0 btn-primary m-2" title="view in details"><i
 											class="fa-solid fa-circle-info"></i></a>
 									<a href="admin_edit.php?bookisbn=<?php echo $row['book_isbn']; ?>"
