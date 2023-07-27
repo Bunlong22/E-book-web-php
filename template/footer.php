@@ -1,6 +1,5 @@
 <hr>
-
-<footer class="fixed-bottom bg-light bg-gradient border py-3 px-2">
+<footer class="fixed-bottom bg-light bg-gradient border">
 	<div class="container">
 		<div class="d-flex justify-content-center">
 			<div class="">

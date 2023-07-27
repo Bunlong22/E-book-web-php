@@ -20,7 +20,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
     integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
   <script type="text/javascript" src="./public/js/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="./public/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -28,7 +27,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light " style="font-size: 17px;">
     <div class="container-fluid">
-      <a class="navbar-brand text-primary fs-4" href="index.php" >E-book Shop</a>
+      <a class="navbar-brand text-primary fs-4" href="index.php">E-book Shop</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +48,13 @@
             <li class="nav-item"><a class="nav-link" href="admin_add.php"><i class="fa-solid fa-plus"></i> Add New
                 Book</a></li>
           <?php else: ?>
-            <li class="nav-item"><a class="nav-link" href="books.php"><i class="fa-solid fa-book"></i>View all Books</a>
+            <li class="nav-item"><a class="nav-link" href="allbooks.php"><i class="fa-solid fa-book"></i>View all
+                Books</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="aboutus.php"><i class="fa-regular fa-user"></i> About Us</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="contactus.php"><i class="fa-solid fa-address-book"></i> Contact Us</a>
+            <li class="nav-item"><a class="nav-link" href="contactus.php"><i class="fa-solid fa-address-book"></i> Contact
+                Us</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="cart.php"><span class="fa fa-shopping-cart"></span> Cart</a>
             </li>
@@ -63,7 +64,7 @@
             <li class="nav-item"><a class="nav-link" href="admin_signout.php"><span class="fa fa-sign-out-alt"></span>
                 Logout</a></li>
           <?php else: ?>
-            <li class="nav-item"><a class="nav-link" href="admin.php"><span class="fa fa-sign-in-alt"></span> Login</a>
+            <li class="nav-item"><a class="nav-link" href="admin-login.php"><span class="fa fa-sign-in-alt"></span> Login</a>
             </li>
           <?php endif; ?>
         </ul>
